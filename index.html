@@ -73,21 +73,29 @@
     /* Header Section */
     header {
       text-align: center;
-      background: var(--accent);
-      color: black;
-      border-bottom: 4px solid black;
+      background: #000;
+      color: white;
+      border-bottom: 4px solid var(--accent);
     }
 
-    header h1 { font-size: 3rem; }
-    header p { font-size: 1.2rem; }
+    header h1 { 
+        text-shadow: 0 0 10px #38bdf8;
+    }
+    header p { 
+        text-shadow: 0 0 5px #38bdf8;
+    }
 
     /* Profile Image */
     img.profile {
-      width: 150px;
-      border-radius: 50%;
+      width: 300px;
+      height: auto;
+      border-radius: 8px;
       margin: 1rem auto;
       display: block;
       border: 4px solid black;
+      object-fit: cover;
+      border: 4px solid #38bdf8;
+      box-shadow: 0 0 15px #38bdf8, 0 0 30px #38bdf8;
     }
 
     /* Section Headings */
